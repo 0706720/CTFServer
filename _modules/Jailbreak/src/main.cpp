@@ -281,6 +281,6 @@ void loop()
     }
   }
   sendPeriodicUpdate();
-  printTempData();
+  //printTempData();
   client.loop(); // Check for incoming messages and keep the connection alive
 }
